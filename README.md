@@ -126,10 +126,10 @@ Other languages: [:gb: English](./README.en.md)
 adb 命令的基本语法如下：
 
 ```sh
-adb [-d|-e|-s <serialNumber>] <command>
+adb [ -d | -e | -s <serialNumber>] <command>
 ```
 
-如果只有一个设备/模拟器连接时，可以省略掉 `[-d|-e|-s <serialNumber>]` 这一部分，直接使用 `adb <command>`。
+如果只有一个设备/模拟器连接时，可以省略掉 `[ -d | -e | -s <serialNumber>]` 这一部分，直接使用 `adb <command>`。
 
 ### 为命令指定目标设备
 
